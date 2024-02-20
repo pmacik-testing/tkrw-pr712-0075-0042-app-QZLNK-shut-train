@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-vrdp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0042-tenant/tkrw-pr712-0075-0042-app/devfile-sample-vrdp@sha256:cbf46d26ab744c785c8e49e5b6e50a2875b17e5d140b910a79814600bc3bd3c3
         name: my-nodejs
         ports:
         - containerPort: 3001
